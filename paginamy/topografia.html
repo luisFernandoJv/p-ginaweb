@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./imagens/style.css">
+
+    <link rel="stylesheet" href="././assets/css/normalize copy.css">
+    <link rel="stylesheet" href="././assets/css/tipo.css">
+    <title>Projeto my</title>
+</head>
+<body>
+        <header class="container-header">
+            <nav class="navegador">
+                <a href="https://github.com/luisFernandoJv/p-ginaweb" target="_blank"><img src="./imagens/3 1 (2).png" alt="" class="logo"></a>
+                <ul>
+                    <li><a href="index.html" target="_parent" class="btn" >Home</a></li>
+                    <li><a href="topografia.html" class="btn">Tipografia</a></li>
+                    <li><a href="card.html" class="btn" target="_parent">Cards</a></li>
+                    <li><a href="lista.html" class="btn">Listas</a></li>
+                    <li><a href="formulario.html" class="btn">Formulários</a></li>
+                    <li><a href="botoes.html" class="btn">botões</a></li>
+                    <li><a href="tabela.html" class="btn">Tabelas</a></li>
+                </ul>
+            </nav>
+        </header>
+   
+    <main class="container-principal">
+        <h1>My Compoment</h1>
+        <article class="topografia">
+            <h2>tipografia</h2>
+            <p>A Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, repellendus Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, excepturi..</p>
+        </article> 
+
+        <section class="elementos">
+            <h2>elementos</h2>
+            <article>
+                <h3>text</h3>
+               
+                <p>Lorem ipsum, dolor sit <b>amet consectetur</b> adipisicing elit. <strong>Animi, quae.</strong></p>
+                <p>Lorem ipsum, dolor sit <i>amet consectetur</i> adipisicing elit. <em>Animi, quae.</em></p>
+            </article>
+
+            <article>
+                <h3>sobrescrito e subscrito, abreviações</h3>
+                 <p>Lorem ipsum dolor sit amet consectetur 
+                    <a href="#html"></a>
+                    <abbr title="HiperText Markup Language">amet</abbr>
+                    consectetur adipisicing elit.adipisicing elit. Alias, excepturi.</p>
+                <p>Lorem ao quadrado 4<sup>2</sup> H<sub>2</sub>O, dolor sit <sub>amet consectetur</sub> adipisicing elit. <sup>Animi, quae.</sup></p>
+                <p>Lorem ipsum, dolor sit <dfn id="html"> <abbr title="HiperText Markup Language">amet</abbr> </dfn>consectetur adipisicing elit. <dfn>Animi, quae.</dfn></p>
+            </article>
+
+            <article>
+                <h3>citações</h3>
+               
+               <blockquote><p>Lorem ipsum, dolor sit <b>amet consectetur</b> adipisicing elit. <cite>Animi, quae.</cite></p></blockquote>
+
+               <blockquote cite="../paginamy/topografia.html">
+                <p>Lorem ipsum, dolor sit &lt;blockquote&gt; amet consectetur adipisicing elit. <q>Animi, quae.</q></p>
+               </blockquote>
+            </article>
+
+            <article>
+                <h3>coisas do computador</h3>
+           
+                
+                <p>A propriedade de <code>background-color </code></p>
+                <p>Lorem ipsum, dolor sit <i>amet consectetur</i> adipisicing elit. <em>Animi, quae.</em></p>
+                
+                <pre>
+                    <code>
+                        .topografia{
+                            border-left: 2px solid #FF7833;
+                            padding: 20px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                           
+                        }
+                    </code>
+                </pre>
+
+                <p>Usando a tag &lt;Code&gt; obtendo o retorno <samp lang="en-us">Code falid</samp></p>
+            </article>
+
+            <article>
+                <h3>Citações de atalhos</h3>
+
+                <p>Para o atalho <kbd>Ctrl</kbd> + <kbd>c</kbd> para copiar</p>
+            </article>
+
+            <article>
+                <h3>Datas e horas</h3>
+
+                <p>O evento está marcado para <time datetime="2024-11-20">20 de novembro de 2024</time></p>
+
+                <p>O evento ocorrerá no dia <del><time datetime="2024-11-20">2024 de novembro de 2024</time></del> <ins>o evento acontecerá no dia <time datetime="2024-11-22"> 22 de novembro de 2024</time></ins>
+                </p>
+            </article>
+
+
+        </section>
+
+    </main>
+</body>
+</html>

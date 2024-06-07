@@ -1,0 +1,95 @@
+html{
+    background-image: url(../../tabeladepreco/1.png);
+    background-repeat: repeat;
+    background-size: 20%;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+legend{
+    font-size: 1.4em;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    color: #e5281779;
+}
+
+.logo{
+    width: 10%;
+}
+
+input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    padding: 0.75em;
+    margin: .5em 0 2.5em;
+    border-radius: 10px;
+    outline: 0;
+}
+
+input{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-bottom: 2px solid transparent;
+    border-bottom-color:#bbb;
+}
+
+form{
+    width: 90%;
+    min-width: 28.125em;
+    max-width: 35em;
+    margin: auto;
+    background-color: #0e1010;
+    padding: 1em;
+    box-shadow: 0 2px 12px -6px rgb(6, 6, 6);
+    border-radius: 10px;
+}
+fieldset{
+   border: none;
+   padding: 0;
+   margin: 0;
+
+}
+.btn{
+    background-color: rgba(60, 55, 55, 0.778);
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.797);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.btn--apagar{
+    background-color: red;
+}
+.btn:hover{
+    background-color: rgb(211, 117, 117);
+}
+
+.btoes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  
+}
+
+
+input:invalid:focus{
+   border-bottom: 2px solid red;
+
+}
+input:valid:focus{
+    border-bottom: 2px solid green;
+}
+input:focus{
+    border-bottom: 2px solid #8e999a;
+    background-color: #2a2727;
+}
+
